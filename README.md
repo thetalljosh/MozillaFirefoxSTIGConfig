@@ -1,8 +1,8 @@
 # MozillaFirefoxSTIGConfig
 
 This file will allow administrators to quickly STIG Mozilla Firefox (validated against Firefox 90.00). 
-Settings from the latest STIG V5R1 are loaded in to mozilla.txt, which is converted to mozilla.cfg (byteshift 13), by the tool http://www.alain.knaff.lu/howto/MozillaCustomization/cgi/byteshf.cgi
-Settings in the mozilla.txt file follow the format:
+
+Settings in the firefox.txt file follow the format:
   lockpref("setting.name", value);
   
 Use in an AD environment by distributing files via GPO computer configuration > preferences > files
@@ -27,6 +27,3 @@ C:\Program Files (x86)\Mozilla Firefox\defaults\pref
 
 C:\Program Files\Mozilla Firefox\
 C:\Program Files (x86)\Mozilla Firefox\
-
-4) The firefox.txt file is the source for the conversion at
-https://www.alain.knaff.lu/howto/MozillaCustomization/cgi/byteshf.cgi
