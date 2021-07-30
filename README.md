@@ -18,15 +18,15 @@ V-223151
 
 1) Unzip the file.
 
-2) Place the local-settings.js file in C:\<firefox path>\defaults\pref\ folder.
+2) Place the autoconfig.js file in C:\<firefox path>\defaults\pref\ folder.
 
 C:\Program Files\Mozilla Firefox\defaults\pref
 C:\Program Files (x86)\Mozilla Firefox\defaults\pref
 
-3) Place the mozilla.cfg file in C:\<firefox path>\ folder.
+3) Place the firefox.cfg file in C:\<firefox path>\ folder.
 
 C:\Program Files\Mozilla Firefox\
 C:\Program Files (x86)\Mozilla Firefox\
 
-4) The mozilla.txt file is the source for the conversion at
+4) The firefox.txt file is the source for the conversion at
 https://www.alain.knaff.lu/howto/MozillaCustomization/cgi/byteshf.cgi
